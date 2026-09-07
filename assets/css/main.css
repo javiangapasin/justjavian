@@ -1265,6 +1265,64 @@ section,
   border-color: var(--accent-color);
 }
 
+.experience-entry {
+  scroll-margin-top: 32px;
+}
+
+.experience-heading {
+  border-top: 4px solid var(--accent-color);
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  margin: 10px 0 36px;
+  padding: 24px 0 20px;
+  scroll-margin-top: 32px;
+}
+
+.experience-heading-secondary {
+  margin-top: 56px;
+}
+
+.experience-heading h1 {
+  margin: 0 0 6px;
+}
+
+.experience-label {
+  color: var(--accent-color);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.experience-date {
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  margin-top: -10px;
+}
+
+.photo-placeholder {
+  min-height: 220px;
+  border: 2px dashed color-mix(in srgb, var(--default-color), transparent 60%);
+  background-color: color-mix(in srgb, var(--accent-color), transparent 94%);
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.photo-placeholder i {
+  font-size: 2rem;
+  color: var(--accent-color);
+}
+
+.arup-photo {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+}
+
 .service-details .services-img {
   margin-bottom: 20px;
 }
